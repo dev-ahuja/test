@@ -1,0 +1,5 @@
+first_val = input("Please enter your first no: ")
+second_val = input("Please enter your second no: ")
+result = int(first_val) + int(second_val)
+message = "Hello, The Sum of {} and {} is {} ".format(first_val,second_val,result)
+print(message)
